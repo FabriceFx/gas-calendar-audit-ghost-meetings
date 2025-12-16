@@ -1,4 +1,4 @@
-# Audit de Calendrier : Détection de Réunions "Fantômes"
+# Audit de calendrier : Détection de réunions "fantômes"
 
 ![License MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-Google%20Apps%20Script-green)
@@ -9,7 +9,7 @@
 
 Il résout le problème des "réunions zombies" qui polluent l'agenda alors que personne ne compte y assister.
 
-## 🚀 Fonctionnalités Clés
+## 🚀 Fonctionnalités clés
 
 * **Précision API v3** : Utilise le Service Avancé Calendar pour accéder aux métadonnées précises (`organizer.self`, `responseStatus`) et générer des liens `htmlLink` fiables.
 * **Logique de Filtrage** :
@@ -43,7 +43,7 @@ Ce script utilise l'API REST Calendar, qui n'est pas activée par défaut.
 3.  Acceptez les demandes d'autorisation.
     * *Note : Le script vérifiera l'existence de déclencheurs pour éviter les doublons.*
 
-## 🛠️ Structure du Projet
+## 🛠️ Structure du projet
 
 ```text
 /
